@@ -119,7 +119,7 @@ public class Client extends JFrame implements ActionListener
 	
 	public static void main(String args[]) throws Exception
 	{
-		/*SplashScreen.getInstance("images/ibm-serveur-bis.png");
+		SplashScreen.getInstance("images/ibm-serveur-bis.png");
 		
 		try 
 		{
@@ -129,7 +129,7 @@ public class Client extends JFrame implements ActionListener
 		catch(InterruptedException e)
 		{
 			e.printStackTrace();
-		}*/
+		}
 		
 		new Client();
 	}

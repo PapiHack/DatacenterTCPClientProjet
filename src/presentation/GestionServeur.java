@@ -230,7 +230,7 @@ public class GestionServeur extends JFrame implements ActionListener
 			{
 	    		this.oos.writeObject("Suppression de serveur");  
 	    		this.oos.flush();
-	    		this.out.writeChars(num);
+	    		this.oos.writeObject(num);
 	    		this.oos.flush();
 				this.chnum.setText("");
 				this.chnom.setText("");
